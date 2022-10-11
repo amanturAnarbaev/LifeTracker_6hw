@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/ic_lamp"
+    android:orientation="vertical"
+    tools:context=".RegistrationNumberFragment">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_gravity="top"
+        android:background="@drawable/wave__2_" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Введите номер телефона"
+    android:layout_gravity="left"
+    android:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/numberEd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="6dp"
+
+        android:background="@drawable/violet_rectangle"
+        android:hint="+996"
+        android:padding="16dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Введите код"
+        android:layout_gravity="left"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/codeEd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="6dp"
+        android:background="@drawable/violet_rectangle"
+
+        android:hint="Code"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/sendNumberBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="6dp"
+        android:background="@drawable/violet_rectangle"
+        android:backgroundTint="@color/purple_500"
+        android:padding="16dp"
+        android:text="Send number" />
+
+    <Button
+        android:id="@+id/sendCodeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/violet_rectangle"
+        android:backgroundTint="@color/purple_500"
+        android:padding="16dp"
+        android:text="Send Code" />
+
+
+</LinearLayout>
